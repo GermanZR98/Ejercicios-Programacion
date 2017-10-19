@@ -21,6 +21,20 @@
     if ((hora >= 21) && (hora <= 5)) {
       System.out.println("Buenas noches bro");
     }
+    
+    if ((hora >= 21) && (hora <= 24)) {
+      System.out.println("Buenas noches bro");
+    }
+    
+    if ((hora >= 1) && (hora <= 5)) {
+      System.out.println("Buenas noches bro");
+    }
+    
+    if (hora > 24) {
+      System.out.println("Esa hora no existe");
+    }
+    
+    
   }
 }
 
