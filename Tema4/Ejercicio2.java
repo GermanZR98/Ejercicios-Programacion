@@ -22,16 +22,20 @@
       System.out.println("Buenas noches bro");
     }
     
-    if ((hora >= 21) && (hora <= 24)) {
+    if ((hora >= 21) && (hora <= 23)) {
       System.out.println("Buenas noches bro");
     }
     
-    if ((hora >= 1) && (hora <= 5)) {
+    if ((hora >= 0) && (hora <= 5)) {
       System.out.println("Buenas noches bro");
     }
     
-    if (hora > 24) {
+    if (hora >= 25) {
       System.out.println("Esa hora no existe");
+    }
+    
+    if (hora == 24) {
+      System.out.println("Ponme 00 anda ");
     }
     
     

@@ -7,20 +7,20 @@
   public static void main(String[] args) {
     System.out.println("Dame x para hacer una ecuacion de 1º grado");
     
-    int x = Integer.parseInt(System.console().readLine());
+    int a = Integer.parseInt(System.console().readLine());
     
-    if (x == 0) {
-        System.out.println("El resultado es b = 0");
+    if (a == 0) {
+        System.out.println("No tiene solución");
       }
       
-    if (x > 0) {
+    if (a > 0) {
     
-        System.out.println(x +"=-b/a");
+        System.out.println(a +"=-b/a");
     }
     
-    if (x < 0) {
+    if (a < 0) {
     
-        System.out.println(x +"=b/a");
+        System.out.println(a +"=b/a");
     }
 }
 }
