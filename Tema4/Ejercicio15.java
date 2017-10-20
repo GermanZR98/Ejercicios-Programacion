@@ -15,6 +15,8 @@
     
     String c = (System.console().readLine());
     
+    System.out.println("-----------------------------------------");
+    
     if (direccion.equals("arriba")) {
       System.out.println("  "+c  );
       System.out.println(" "+c+c+c );
