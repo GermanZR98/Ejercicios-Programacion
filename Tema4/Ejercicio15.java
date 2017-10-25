@@ -6,8 +6,8 @@
   public class Ejercicio15 {
   public static void main(String[] args) {
     System.out.println("Vamos a hacer una pirámide");
-    System.out.println("Dime tambien para que dirección quieres que vaya:");
-    System.out.println("arriba,abajo,izquierda o derecha:");
+    System.out.println("Dime tambien para que dirección quieres que vaya:\n");
+    System.out.println("arriba,abajo,izquierda o derecha:\n");
     
     String direccion = (System.console().readLine());
     
