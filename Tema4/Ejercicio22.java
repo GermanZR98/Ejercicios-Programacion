@@ -10,19 +10,19 @@
     
     int numerodia = 0;
     
-    if (dia == "lunes") {
+    if (dia.equals("lunes")) {
       numerodia = 0;
       }
-    if (dia == "martes") {
+    if (dia.equals("martes")) {
       numerodia = 1;
       }
-    if (dia == "miercoles") {
+    if (dia.equals("miercoles")) {
       numerodia = 2;
       }
-    if (dia == "jueves") {
+    if (dia.equals("jueves")) {
       numerodia = 3;
       }
-    if (dia == "viernes") {
+    if (dia.equals("viernes")) {
       numerodia = 4;
       }
       
@@ -33,7 +33,7 @@
     int minutos = Integer.parseInt(System.console().readLine());
       
     int totalAct = (numerodia * 24 * 60) + (hora * 60) + minutos;
-    int finde = 6660;
+    int finde = (4 * 24 * 60) + (15 * 60);
     
     System.out.println("Para el fin de semana faltan " + (finde - totalAct) + " minutos");
   }
