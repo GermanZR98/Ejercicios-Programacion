@@ -1,9 +1,9 @@
 /**
-* Ejercicio14 Tema5
+* Ejercicio15 Tema5
 *
 * @author German Zambrana Ruiz
 */
-  public class Ejercicio14 {
+  public class Ejercicio15 {
     public static void main(String[] args) {
       System.out.print("Dame una base: ");
       int b = Integer.parseInt(System.console().readLine());
@@ -11,13 +11,13 @@
       System.out.print("Dame un exponente: ");
       int e = Integer.parseInt(System.console().readLine());
       int result = 1;
-      int cont = e;
+      int cont = 0;
       
-      while (cont > 0) {
+      while (cont < e) {
         result *= b;
-        cont--;
+        cont++;
+        System.out.println(b+"^"+cont+"="+result);
         }
-      System.out.println(b+"^"+e+"="+result);
     }
   }
   
