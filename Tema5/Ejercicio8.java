@@ -7,7 +7,7 @@
     public static void main(String[] args) {
       
       System.out.print("Dame un número: ");
-      int num = Integer.parseInt(System.console().readLine());;
+      int num = Integer.parseInt(System.console().readLine());
       
       for (int i = 0; i < 11 ; i++) {
       
