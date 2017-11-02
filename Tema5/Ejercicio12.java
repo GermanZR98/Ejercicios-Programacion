@@ -20,7 +20,10 @@
         num2 = aux;
         aux = num1+num2;
         control++;
-      }
+        } 
+        if (n < 0) {
+          System.out.print("Lo siento, el valor tiene que ser mayor que cero");
+        }
     }
   }
     
