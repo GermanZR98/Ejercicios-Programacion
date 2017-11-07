@@ -6,25 +6,23 @@
   public class Ejercicio22 {
     public static void main(String[] args) {
       
-      int i = 1;
-      int n = 2;
+      for (int numero = 2; numero < 100; numero++) {
+      int cont = 2;
       boolean primo = true;
-      int resultado = 0;
       
-      while (n <= 100) {
-        while (i < 100) {
-          resultado = n%i;
-          if (resultado == 0) {
+      while (cont < numero) {
+      int resultado = numero%cont;
+      if (resultado == 0) {
           primo = false;
           }
-          i++;
-          n++;
+        cont++;
         }
-       if (primo) {
-        System.out.println(n);
+        
+      if (primo) {
+        System.out.print(numero + " ");
         } 
       }
-    }
   }
+}
   
     
