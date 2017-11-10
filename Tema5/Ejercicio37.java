@@ -9,7 +9,7 @@
       
       int numero = Integer.parseInt(System.console().readLine());
       int volteado = 0;
-      int numero2 = 0;
+      int digito = 0;
       int palos = 0;
       
       while (numero > 0) {
@@ -18,16 +18,19 @@
       }
       
       while (volteado > 0) {
-        numero2 = volteado%10;
+        digito = volteado%10;
         volteado = volteado/10;
         
-        while (numero2 > palos) {
+        palos = 0;
+        while (digito > palos) {
           System.out.print("|");
           palos++;
         }
-        if (numero2 == palos) {
+        if (digito == palos) {
             System.out.print("-");
         }
       }
     }
   }
+  
+  
