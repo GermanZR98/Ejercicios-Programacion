@@ -1,9 +1,9 @@
 /**
-* Ejercicio201 Tema5
+* piramidehueca Tema5
 *
 * @author German Zambrana Ruiz
 */
-  public class Ejercicio201 {
+  public class piramidehueca {
     public static void main(String[] args) {
       System.out.print("Dime la altura de la pirámide: ");
       int alturaIntroducida = Integer.parseInt(System.console().readLine());
@@ -17,7 +17,7 @@
       int base = 1;
       
       for (int i = 1; i <= espacios; i++) {
-      System.out.print(" ");  
+      System.out.print("-");  
       }
       
       System.out.print(caracter);

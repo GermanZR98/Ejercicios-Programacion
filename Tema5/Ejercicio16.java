@@ -16,7 +16,7 @@
           primo = false;
           }
         cont++;
-        }
+        } //Cierra el while
         
       if (primo) {
         System.out.print("El nº es primo");
@@ -24,6 +24,6 @@
       
         System.out.print("El nº no es primo");
         }
-      }
     }
+  }
     
