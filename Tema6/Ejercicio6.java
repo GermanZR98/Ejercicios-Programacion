@@ -20,7 +20,13 @@
         
         while (intentos > 1) {
         if (respuesta != numero) {
-          System.out.print("Lo siento has fallado, intentalo de nuevo: ");
+          if (numero > respuesta) {
+          System.out.print("el numero tiene que ser mayor ");  
+          }
+          if (numero < respuesta) {
+          System.out.print("el numero tiene que ser menor ");  
+          }
+          System.out.print("intentalo de nuevo: ");
           respuesta = Integer.parseInt(System.console().readLine());
           intentos--;
         } 
