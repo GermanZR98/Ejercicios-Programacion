@@ -9,7 +9,7 @@
       int cont = 0;
       
       for (int i = 1; i <= 100; i++) {
-      int numero = (int)(Math.random()*100);
+      int numero = (int)(Math.random()*100)*2;
       
       System.out.print(numero+" ");
       cont++;

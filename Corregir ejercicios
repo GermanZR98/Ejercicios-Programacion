@@ -1,0 +1,71 @@
+Hacer  7,8 tema 6
+terminar 14
+repetir el valor final de las notas
+--------------------------NOTAS CURIOSAS-------------------------------
+int minutos = Integer.parseInt(System.console().readLine().toLowerCase());
+
+--------------------------DAR LA VUELTA A UN NÚMERO--------------------
+while (numero > 0) {
+        volteado = (volteado * 10) + (numero % 10);
+        numero /= 10;
+      }
+
+--------------------------SACAR LOS DIGITOS---------------------------
+while (volteado > 0) {
+        digito = volteado%10;
+        volteado /= 10;
+
+Si quieres que el numero vaya incrementando la posicion
+
+while (volteado > 0) {
+        digito = digito * 10 + volteado%10;
+        volteado /= 10;
+--------------------------ALMACENAR DIGITOS----------------------------
+
+if (digito % 2 == 0) {
+          almacenamientoPar = almacenamientoPar * 10 + numero3;
+        }
+
+--------------------------PRIMO----------------------------------------
+
+cont = 2;
+        
+        while (cont < numero) {
+          if ((numero % cont) == 0) {
+            esPrimo = false;
+          }
+          cont++;
+        } //Cierra el while 
+      
+        if (esPrimo) {
+        contPrimo++;
+        suma += numero;
+        }
+
+Ejercicio2Angeles
+
+------------------------Capicúa----------------------------------------
+
+if (numero >= 0) {
+          aux = numero;
+          volteado = 0;
+          
+          while (aux > 0) {
+           volteado = (volteado * 10) + (aux % 10);
+           aux /= 10;
+          
+          
+            if (volteado == numero) {
+             cont++;
+            }  
+          } 
+          
+        }
+
+
+
+
+
+
+
+
