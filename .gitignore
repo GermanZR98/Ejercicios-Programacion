@@ -1,3 +1,7 @@
 *.class
 *.rar
 *.zip
+/Tema6v2/nbproject/private/
+/Tema6v2/build/
+/Tema7/nbproject/private/
+/Tema7/build/
