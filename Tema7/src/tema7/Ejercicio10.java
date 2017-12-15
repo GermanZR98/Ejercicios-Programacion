@@ -44,10 +44,9 @@ public class Ejercicio10 {
     for (int x = 0; x < par; x++) {
       System.out.print(resultado[x] + " ");
     }
-    
-    
+
     for (int y = par; y <= 19; y++) {
-     System.out.print(resultado[y] + " ");
+      System.out.print(resultado[y] + " ");
     }
   }
 }
