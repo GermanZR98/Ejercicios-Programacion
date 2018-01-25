@@ -87,32 +87,64 @@ public class funcionesmatematicas {
     return contador;
   }
 
-  //DIGITO QUE ESTA EN LA POSICION QUE SE LE MARCA////// NO SE PORQUE NO ME LO HACE BIEN 
-  public static int digitoN (int x, int y) {
-    int volteado = matematicas.funcionesmatematicas.voltea(x);
-    int solu = volteado % 10;
-    
-    for (int i = 0; i < y; i++) {
-      volteado /= 10;
-      solu = volteado % 10;
+  //DIGITO QUE ESTA EN LA POSICION QUE SE LE MARCA 
+  public static int digitoN(int n, int x) {
+
+    int aux = voltea(n);
+
+    if (x == 1) {
+      return aux % 10;
+    } else {
+      for (int i = 0; i < x; i++) {
+        aux = aux / 10;
+      }
+      return aux % 10;
     }
-    return solu;
   }
-  
+
   //LE QUITA A UN NUMERO LOS DIGITOS QUE LE INDIQUES POR DETRAS
-  public static int quitaPorDetras (int x, int y) {
+  public static int quitaPorDetras(int x, int y) {
     for (int i = 0; i < y; i++) {
       x /= 10;
     }
     return x;
   }
-  
+
   //LE QUITA A UN NUMERO LOS DIGITOS QUE LE INDIQUES POR DELANTE
-  public static int quitaPorDelante (int x, int y) {
-    int volteado = funcionesmatematicas.voltea(x);
-    x = funcionesmatematicas.quitaPorDetras(volteado, y);
-    x = funcionesmatematicas.voltea(x);
-    return x;
+  public static int quitarPorDelante(int n, int x) {
+
+    n = voltea(n);
+    int contador = 0;
+
+    while (contador < x) {
+      n = n / 10;
+      contador++;
+    }
+
+    n = voltea(n);
+    return n;
   }
+  
+  //PEGA UN NÚMERO POR DETRÁS 
+   public static int pegaPorDetras(int n, int x) {
+
+     n = n*10;
+     n = n + x;
+
+     return n;
+   }
+
+
+  //PEGA NÚMERO POR DELANTE
+   public static int pegaPorDelante(int n, int x) {
+
+     n = voltea(n);
+
+     n = n*10;
+     n = n + x;
+
+     return n = voltea(n);
+   }
+
 }//class
 

@@ -68,12 +68,25 @@ public class Ejercicios {
     int porDetras = s.nextInt();
     System.out.println("El numero quedaria asi: "+funcionesmatematicas.quitaPorDetras(n5, porDetras));
     
-    //QUITAR UN NUMERO DE DIGITOS POR DELANTE ///NO SALE TAMPOCO
+    //QUITAR UN NUMERO DE DIGITOS POR DELANTE 
     System.out.print("Introduce un número: ");
     int n6 = s.nextInt();
     System.out.println("Introduce el numero de digitos que le quieres quitar: ");
     int porDelante = s.nextInt();
     System.out.println("El numero quedaria asi: "+funcionesmatematicas.quitaPorDetras(n6, porDelante));
     
+    //PEGA UN NÚMERO POR DETRÁS 
+    System.out.print("Introduce un número: ");
+    int n7 = s.nextInt();
+    System.out.print("Dime el dígito que quieres pegar: ");
+    int digitoDetras = s.nextInt();
+    System.out.println("El numero quedaria asi: "+funcionesmatematicas.pegaPorDetras(n7, digitoDetras));
+    
+    //PEGA UN NÚMERO POR DELANTE
+    System.out.print("Introduce un número: ");
+    int n8 = s.nextInt();
+    System.out.print("Dime el dígito que quieres pegar: ");
+    int digitoDelante = s.nextInt();
+    System.out.println("El numero quedaria asi: "+funcionesmatematicas.pegaPorDetras(n8, digitoDelante));
   } //class
 }
