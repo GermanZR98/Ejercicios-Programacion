@@ -4,7 +4,7 @@ package matematicas;
  *
  * @author German
  */
-public class funcionesmatematicas {
+public class FuncionesEjercicios1a14 {
 
   //VOLTEA da la vuelta al numero
   public static int voltea(int x) {
