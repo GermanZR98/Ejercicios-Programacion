@@ -1,0 +1,78 @@
+.tomate {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin:0 auto;
+    border-spacing: 0px;
+}
+body {
+    background: #C2E7FC;
+    text-align: center;
+
+}
+.t1 {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin:0 auto;
+    border-spacing: 0px;
+    background:#159EEC;
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 0px solid #000000;
+}
+.uno{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 40px;
+    padding:15px;
+
+}
+
+th{
+    padding:15px;
+    background-color:#159EEC;
+    text-align: center;
+    border-radius: 13px 13px 13px 13px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+    border: 0px solid #000000;
+}
+tbody td{
+    padding:10px;
+    background-color:#DEF3CA;
+}
+.names{
+    padding:15px;
+    background-color:#C2E7FC;
+    font-family: "Trebuchet MS", sans-serif;
+}.todo {
+    text-align: center;
+}
+
+.boton {
+    border: 1px solid #dedede;
+    color: #555;
+    display: inline-block;
+    font: bold 12px/12px HelveticaNeue, Arial;
+    padding: 8px 11px;
+    background:none;
+}
+
+.names2 {
+    padding:15px;
+    background-color:#C2E7FC;
+    background:#159EEC;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin:0 auto;
+    border-spacing: 0px;
+    -moz-border-radius: 13px 13px 13px 13px;
+    -webkit-border-radius: 13px 13px 13px 13px;
+
+}
+
+.fuente-btn {
+
+}
